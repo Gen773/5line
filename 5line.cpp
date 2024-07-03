@@ -8,7 +8,7 @@ int main(){
     vector<vector<char>> Field(Line, vector<char>(Line, '-')); //フィールドの宣言&初期化
 
     bool win = 0; //勝利フラグ
-    bool Player = 1; //誰の番か
+    bool Player = 1; //誰の番であるか
     int Player_o_point = 0, Player_x_point = 0; //同時に揃った場合のポイント
 
     while(!win){
