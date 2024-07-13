@@ -61,6 +61,16 @@ int main(){
                 }
                 cout << endl;
             }
+            //lineの表示
+            for(int i = 1; i <= Line; i++){
+                if(i % 10 == 0){
+                    cout << i;
+                }
+                else{
+                    cout << i % 10 << " ";
+                }
+            }
+            cout << endl;
         }
         else if(Entry == 2){ //時計回りに回転
             vector<vector<char>> Tmp_Field(Line, vector<char>(Line, '-')); //回転後のフィールドを宣言&初期化
@@ -91,6 +101,16 @@ int main(){
                 }
                 cout << endl;
             }
+            //lineの表示
+            for(int i = 1; i <= Line; i++){
+                if(i % 10 == 0){
+                    cout << i;
+                }
+                else{
+                    cout << i % 10 << " ";
+                }
+            }
+            cout << endl;
 
         }
         else if(Entry == 3){
@@ -122,6 +142,15 @@ int main(){
                 }
                 cout << endl;
             }
+            for(int i = 1; i <= Line; i++){
+                if(i % 10 == 0){
+                    cout << i;
+                }
+                else{
+                    cout << i % 10 << " ";
+                }
+            }
+            cout << endl;
         }
         else{
             cout << "Select a number from 1 to 3" << endl;
